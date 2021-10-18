@@ -766,7 +766,7 @@ plot_pred +
 ```
 
 
->Suggestions for improvements: Given the dispersion in the testing dataset, although our model demonstrates a relatively good performance in predictions, the model still can be improved. Specifically, our model could have been improved by using formal feature selection methods, such as selectkbest, that allows to take a recursive approach for feature selection, yielding the best combination of the feature set to improve the performance. The model could also been improved by incorporating incremental information to the main dataset, creating new exploratory variables that can account for the unexplained variance.
+>Suggestions for improvements: Given the dispersion in the testing dataset, although our model demonstrates a relatively good performance in predictions, the model still can be improved. Specifically, our model could have been improved by using formal feature selection methods, such as selectkbest, that allows to take a recursive approach for feature selection, yielding the best combination of the feature set to improve the performance. The model could also been improved by incorporating incremental information to the main dataset, creating new exploratory variables that can account for the unexplained variance, which is around 70%.
   
 
 # Acknowledgements
