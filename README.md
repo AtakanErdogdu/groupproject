@@ -11,7 +11,7 @@ In a regression model, the independent variables (in this case the number of rev
 PR(|>t|)
 This describes the probability of finding any value outside the confidence interval of t, hence we are looking for a small value. Since this is the case, all p values are highly significant, as also evidenced by the three stars depicted next to it)
 
-To detect further explanatory variables, we proceeded to introduce additional variables, such as the room type to the model fitted. These variables also had a significant effect on the price, however, they also lowered some of the t-values of the already introduced variables, suggesting some multicollinearity.
+To detect further explanatory variables, we proceeded to introduce additional variables, such as the room type to the model fitted. These variables also had a significant effect on the price, however, they also lowered some of the t-values of the already introduced variables, suggesting some multi-collinearity.
 
 In a second step, we fitted a new model, this time introducing beds, bedrooms, bathrooms, and space as the independent variables. Although all factors appeared to be significant in this model at first, introducing further explanatory variables and running a multicollinearity test (VIF) showed that bedrooms are highly correlated with some of the variables, which should not be surprising since the number of bedrooms tends to increase as the number of beds increases or as the Airbnb becomes larger. 
 
