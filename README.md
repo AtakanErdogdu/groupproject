@@ -5,7 +5,7 @@ We commenced the regression analysis by first getting an understanding of the da
 Standard Error
 The standard error provides an estimate of the difference from the coefficient estimate if we ran the model again. Ideally, this number should be small relative to the estimate, which appears to be the case in this model. 
 
-t-value
+T-value
 In a regression model, the independent variables (in this case the number of reviews, review scores, and property type) should explain the dependent variable. For this, we require a correlation between the independent variable and each of the dependent variables. As the t-values in this model are all significantly different from 0, it can be assumed that all independent variables provide information to describe the independent variable. 
 
 PR(|>t|)
