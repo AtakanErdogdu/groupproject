@@ -268,7 +268,7 @@ main_listings %>%
   labs(title="Distribution of number of minimum nights",x="Is minimum nights higher than 4?",y="Price")
 
 ```
-#Checking for correlations
+#Check for correlations
 
 
 ```{r check for correlations, out.width = '80%',echo=FALSE}
