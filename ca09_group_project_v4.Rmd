@@ -649,7 +649,7 @@ huxreg(list("Model 1"=model1,"Model 2"=model2,"Model 3"=model3,"Model 7"=model7,
 
 ```
 
-1. Finally, we use our model11 for prediction for the following case: Suppose you are planning to visit the city you have been assigned to over reading week, and you want to stay in an Airbnb. Find Airbnb's in your destination city that are apartments with a private room, have at least 10 reviews, and an average rating of at least 90. Use your best model to predict the total cost to stay at this Airbnb for 4 nights. Include the appropriate 95% interval with your prediction. Report the point prediction and interval in terms of `price_4_nights`. 
+1. Finally, we use our model11 for prediction for the following case: Suppose you are planning to visit the city you have been assigned to over reading week, and you want to stay in an Airbnb. Find Airbnb's in your destination city that are apartments with a private room, have at least 10 reviews, and an average rating of at least 90. Use your best model to predict the total cost to stay at this Airbnb for 4 nights. Include the appropriate 95% interval with your prediction. 
 
 
 ```{r calculate RMSE for our best model, out.width = '100%'}
