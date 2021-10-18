@@ -12,7 +12,7 @@ output:
     code_folding: show
 ---
 
-d
+
 ```{r setup, include=FALSE}
 # leave this chunk alone
 options(knitr.table.format = "html") 
@@ -75,8 +75,6 @@ Even though there are many variables in the dataframe, here is a quick descripti
 
 
 # Exploratory Data Analysis (EDA)
-
-In the [R4DS Exploratory Data Analysis chapter](http://r4ds.had.co.nz/exploratory-data-analysis.html){target="_blank"}, the authors state:
 
 > "Your goal during EDA is to develop an understanding of your data. The easiest way to do this is to use questions as tools to guide your investigation... EDA is fundamentally a creative process. And like most creative processes, the key to asking quality questions is to generate a large quantity of questions."
 
